@@ -1,43 +1,6 @@
 @extends('app')
 @section('content')
-<?php
-/*$tz = new DateTimeZone('Africa/Algiers');
-$date = new DateTime('now', $tz);   
-$dat=new DateTime('now', $tz);
-$dat->modify('+40 hour');
 
-
-$d=$dat->diff($date)->format('Lancé il y a : %i munute');
-dd($d);
-
-
-/*$mytime = Carbon\Carbon::now(new DateTimeZone('Europe/London'))->toDateTimeString();
-$mytime=$mytime->diffInHours($mytime);
-dd($mytime)
-
-
-
-/*
-Mapper::map(53.381128999999990000, -1.470085000000040000, ['eventAfterLoad' => 'console.log("after load");']);
-
-
-	
-Mapper::marker(53.381128999999990000, -1.470085000000040000, ['draggable' => true, 'eventMouseclick' => 'console.log("mouse over");']);
-//Mapper::marker(53.4809, -2.2374, ['symbol' => 'circle', 'scale' => 1000]);
-Mapper::map(52.381128999999990000, 0.470085000000040000)->marker(53.381128999999990000, -1.470085000000040000, ['markers' => ['symbol' => 'circle', 'scale' => 1000, 'animation' => 'DROP']]);
-Mapper::map(52.381128999999990000, 0.470085000000040000)->marker(53.4809, -2.2374, ['markers' => ['symbol' => 'circle', 'scale' => 1000, 'animation' => 'DROP']]);
-	
-Mapper::informationWindow(53.381128999999990000, -1.470085000000040000, 'Content');
-Mapper::informationWindow(53.381128999999990000, -1.470085000000040000, 'Content', ['markers' => ['title' => 'Title']]);
-$contenu="rien";
-Mapper::map(53.4809, -2.2374)->informationWindow(53.4809, -2.2374, $contenu)->marker(53.4167,-3, ['markers' => ['symbol' => 'circle', 'scale' => 1000, 'animation' => 'DROP'],'eventClick' => 'getlocalite()'])->marker(52.381128999999990000, 0.470085000000040000, ['markers' => ['symbol' => 'circle', 'scale' => 1000, 'animation' => 'DROP'],'eventRightClick' => 'console.log("right click");'])->marker(53.381128999999990000, -1.470085000000040000, ['markers' => ['symbol' => 'circle', 'scale' => 1000, 'animation' => 'DROP','eventRightClick' => 'console.log("right click");']])	
-//Mapper::map(52.381128999999990000, 0.470085000000040000)->informationWindow(53.381128999999990000, -1.470085000000040000, 'Content', ['markers' => ['animation' => 'DROP']]);
-echo Mapper::render(3);
-
-*/
-
-
-?>
  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCAbw7e2hVW-Tk4KRbdwZrj9GEBl9wnqBM"></script>
  
         <script>
